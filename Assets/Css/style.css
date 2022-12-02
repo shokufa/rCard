@@ -121,6 +121,8 @@ ul{
 
 ul p {
     color: var(--font-color-3);
+    padding: 0px;
+    margin: 0px;
 }
 
 /* Header Card Style */
