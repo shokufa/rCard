@@ -105,6 +105,10 @@ hr {
     color: var(--font-color-3);
 }
 
+.subdiv-body img{    
+    width: 70px;
+}
+
 .subdiv-body:hover{
     background-color: var(--background-sub-div-card-2);
     box-shadow: var(--box-shadow-3);
