@@ -16,6 +16,18 @@
     --box-shadow-2: 0 0 25px #000;
     --box-shadow-2: 0 0 10px #222;
     --box-shadow-3: 0 0 10px  rgba(0, 0, 0, 0.722);
+
+    font-family: 'Poppins', sans-serif;
+    --font-color-1: #fff;
+    --font-color-2: #e2e2e2;
+    --font-color-3: #d6d6d6bf;
+
+    --font-size-0: 28px;
+    --font-size-1: 26px;
+    --font-size-2: 18px;
+    --font-size-3: 16px;
+    --font-size-4: 12px;
+
 }
 
 body {
@@ -24,10 +36,6 @@ body {
     align-items: flex-start;
     margin: 0;
     display: flex;
-}
-
-h1, h2, h3, p {
-    color: #ffffff;
 }
 
 hr {
@@ -54,13 +62,14 @@ hr {
 
 .title-body {
     padding-left: 30px;
+    font-size: var(--font-size-1);
+    color: var(--font-color-1);
 }
 
 .p-about-me {
-    font-size: 20px;
     padding-left: 30px;
-    font-family:  15px 'Poppins','sans-serif' ;
-    color: #d6d6d6;
+    font-size: var(--font-size-2);
+    color: var(--font-color-3);
 }
 
 .sub-div-card {
@@ -85,9 +94,14 @@ hr {
     flex-grow: 1;
     flex-basis: 40%;
     flex-shrink: 1;
+
+    margin: 1rem;
+
     /* این بالایی برای اینکه اگه اضافه تر از محوطه داده شده بود اضافه ها زو به نسبت داده شده کم می کند */
     text-align: left;
-    margin: 1rem;
+
+    font-size: var(--font-size-3);
+    color: var(--font-color-3);
 }
 
 .subdiv-body:hover{
@@ -95,9 +109,18 @@ hr {
     box-shadow: var(--box-shadow-3);
 }
 
+.subdiv-body h3{
+    font-size: var(--font-size-2);
+    color: var(--font-color-1);
+}
+
 ul{
-    list-style-type: square;
-    color: #ffffff;
+    list-style-type: disc;
+    color: #fff;
+}
+
+ul p {
+    color: var(--font-color-3);
 }
 
 /* Header Card Style */
@@ -128,6 +151,11 @@ ul{
     width: 80%;
 }
 
+.div-header h1 {
+    font-size: var(--font-size-0);
+    color: var(--font-color-1);
+}
+
 .div-title {
     background-color: var(--background-header-title);
     box-shadow: var(--box-shadow-1);
@@ -146,6 +174,8 @@ ul{
 
 .div-title p {
     padding: 0 24px;
+    font-size: var(--font-size-4);
+    color: var(--font-color-2);
 }
 
 .info-header {
@@ -176,6 +206,19 @@ ul{
 
 .info-title-header p {
     margin: 0;
+    font-size: var(--font-size-3);
+    color: var(--font-color-3);
+}
+
+.info-title-header a {
+    text-decoration: none;
+    font-size: var(--font-size-3);
+    color: var(--font-color-1);
+    transition: 0.1s;
+}
+
+.info-title-header a:hover {
+    color: var(--font-color-2);
 }
 
 
