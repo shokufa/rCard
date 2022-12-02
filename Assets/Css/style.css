@@ -57,21 +57,24 @@ hr {
 }
 
 .p-about-me {
-    font-size: 24px;
+    font-size: 20px;
     padding-left: 30px;
+    font-family:  15px 'Poppins','sans-serif' ;
+    color: #d6d6d6;
 }
 
-/* .sub-div-card {
+.sub-div-card {
     display: flex;
-} */
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
 .subdiv-body{    
-    width: 46%;
-    margin: 1rem;
     border-radius: 1rem ;
-
+    
     box-sizing: border-box;
-    display: inline-block ;
+    display: inline;
     
     box-shadow: var(--box-shadow-2);
     border: 1px solid var(--border-out);
@@ -79,7 +82,12 @@ hr {
     padding-left: 2rem;
     background-color: var(--background-sub-div-card);
     
+    flex-grow: 1;
+    flex-basis: 40%;
+    flex-shrink: 1;
+    /* این بالایی برای اینکه اگه اضافه تر از محوطه داده شده بود اضافه ها زو به نسبت داده شده کم می کند */
     text-align: left;
+    margin: 1rem;
 }
 
 .subdiv-body:hover{
@@ -189,7 +197,17 @@ ul{
         margin: 1.5rem;
         padding: 1.5rem;
         display: block;
-    }    
+    }   
+    
+    /* .subdiv-body{
+        display: block;
+        width: 100%;
+    }
+
+    .sub-div-card{
+        display:  ;
+
+    } */
 
     .title-body {
         padding: 10px;
