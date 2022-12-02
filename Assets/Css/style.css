@@ -128,12 +128,16 @@ ul{
     transition: 0.2s;
 
     border-radius: 1rem;    
-    width: 120px;
+    /* width: 120px; */
 }
 
 .div-title:hover {
     background-color: var(--background-header-title-1);
     box-shadow: var(--box-shadow-2);
+}
+
+.div-title p {
+    padding: 0 24px;
 }
 
 .info-header {
