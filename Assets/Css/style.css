@@ -202,6 +202,11 @@ ul p {
     align-items: center;
 }
 
+.info-icon-herder span {
+    font-size:40px;
+    color: var(--border-in); 
+}
+
 .info-title-header {
     display: inline-block; 
     align-items: center;
@@ -224,6 +229,8 @@ ul p {
 .info-title-header a:hover {
     color: var(--font-color-2);
 }
+
+
 
 
 
