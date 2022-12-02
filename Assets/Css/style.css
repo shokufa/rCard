@@ -100,6 +100,8 @@ hr {
     /* این بالایی برای اینکه اگه اضافه تر از محوطه داده شده بود اضافه ها زو به نسبت داده شده کم می کند */
     text-align: left;
 
+    transition: 0.2s;
+
     font-size: var(--font-size-3);
     color: var(--font-color-3);
 }
