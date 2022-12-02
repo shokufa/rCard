@@ -196,8 +196,8 @@ ul p {
 .sub-info-header {
     display: flex;
     align-items: center;
-    /* align-items: stretch; */
-    justify-content: center;
+    align-items: stretch;
+    justify-content: stretch;
     margin: 20px auto;
 }
 
@@ -212,18 +212,26 @@ ul p {
 }
 
 .info-title-header {
-    display: inline-block; 
-    align-items: center;
+    display: flex; 
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
     padding-left: 20px;
 }
 
 .info-title-header p {
     margin: 0;
+    display: flex;
+    align-items: flex-start;
     font-size: var(--font-size-3);
     color: var(--font-color-3);
 }
 
 .info-title-header a {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
     text-decoration: none;
     font-size: var(--font-size-3);
     color: var(--font-color-1);
